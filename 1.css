@@ -1,0 +1,36 @@
+#header
+{
+	width: 972px;
+	height: 100px;
+	background-color: #00ff00;
+	margin: 20px;
+}
+#up
+{
+	display: block;
+	width: 1000px;
+	height: 143px;
+	background-color: aqua;
+	margin: 20px;
+}
+#Login
+{
+	width: 218px;
+	height: 143px;
+	border-style: solid;
+	display: inline-block;
+	background-color: blue;
+}
+#banner
+{
+	height: 136px;
+	width: 750px;
+	border-style: solid;
+	display: inline-block;
+	background-color: blue;
+}
+#down
+{
+	display: block;
+	background-color: aqua;
+}
