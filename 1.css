@@ -1,11 +1,20 @@
-#header
+div#header
 {
 	width: 972px;
 	height: 100px;
 	background-color: #00ff00;
 	margin: 20px;
 }
-#up
+a#homepage
+{
+	display: block;
+	float: left;
+	width: 164px;
+	height: 88px;
+	background-repeat: no-repeat;
+	background-image: url(images/logo.gif);
+}
+div#up
 {
 	display: block;
 	width: 1000px;
@@ -13,7 +22,7 @@
 	background-color: aqua;
 	margin: 20px;
 }
-#Login
+div#Login
 {
 	width: 218px;
 	height: 143px;
@@ -21,7 +30,7 @@
 	display: inline-block;
 	background-color: blue;
 }
-#banner
+div#banner
 {
 	height: 136px;
 	width: 750px;
@@ -29,7 +38,12 @@
 	display: inline-block;
 	background-color: blue;
 }
-#down
+div#down
 {
 	display: block;
+}
+li#MobileNewspaper
+{
+	list-style: square;
+	color: red;
 }
