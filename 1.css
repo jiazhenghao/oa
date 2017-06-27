@@ -1,18 +1,40 @@
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
 div#header
 {
 	width: 972px;
-	height: 100px;
-	background-color: #00ff00;
-	margin: 20px;
+	height: 88px;
+	margin: 0px;
 }
 a#homepage
 {
 	display: block;
-	float: left;
 	width: 164px;
 	height: 88px;
 	background-repeat: no-repeat;
 	background-image: url(images/logo.gif);
+}
+div#navibar
+{
+	width: 1000px;
+	height: 40px;
+}
+li#navi
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: left;
+	list-style: none;
+	font-size: 140%;
+	font-family: 微软雅黑;
 }
 div#up
 {
@@ -28,7 +50,7 @@ div#Login
 	height: 143px;
 	border-style: solid;
 	display: inline-block;
-	background-color: blue;
+	background-color: aqua;
 }
 div#banner
 {
@@ -36,7 +58,7 @@ div#banner
 	width: 750px;
 	border-style: solid;
 	display: inline-block;
-	background-color: blue;
+	background-color: aqua;
 }
 div#down
 {
@@ -44,6 +66,5 @@ div#down
 }
 li#MobileNewspaper
 {
-	list-style: square;
 	color: red;
 }
