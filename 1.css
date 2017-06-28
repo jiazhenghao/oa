@@ -1,70 +1,102 @@
-a
-{
-	text-decoration: none;
+a {
+    text-decoration: none;
+    color: black;
 }
-a:hover
-{
-	text-decoration: underline;
+
+a:hover {
+    text-decoration: underline;
 }
-div#header
-{
-	width: 972px;
-	height: 88px;
-	margin: 0px;
+
+h2 {
+    margin: 0px;
+    padding: 1px 5px;
+    background-color: blue;
+    color: white;
 }
-a#homepage
-{
-	display: block;
-	width: 164px;
-	height: 88px;
-	background-repeat: no-repeat;
-	background-image: url(images/logo.gif);
+
+div {
+    background-color: #999999;
 }
-div#navibar
-{
-	width: 1000px;
-	height: 40px;
+
+div#header {
+    width: 1280px;
+    height: 88px;
+    margin: 0px;
 }
-li#navi
-{
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	float: left;
-	list-style: none;
-	font-size: 140%;
-	font-family: 微软雅黑;
+
+a#homepage {
+    display: block;
+    width: 164px;
+    height: 88px;
+    background-repeat: no-repeat;
+    background-image: url(images/logo.gif);
 }
-div#up
-{
-	display: block;
-	width: 1000px;
-	height: 143px;
-	background-color: aqua;
-	margin: 20px;
+
+div#navibar {
+    height: 40px;
+    padding: 0px 3px;
+    background-color: blue;
+    border-radius: 10px;
 }
-div#Login
-{
-	width: 218px;
-	height: 143px;
-	border-style: solid;
-	display: inline-block;
-	background-color: aqua;
+
+div#navibar li {
+    margin: 0px 20px;
+    float: left;
+    list-style: none;
+    font-size: 140%;
+    font-family: 微软雅黑;
 }
-div#banner
-{
-	height: 136px;
-	width: 750px;
-	border-style: solid;
-	display: inline-block;
-	background-color: aqua;
+
+div#navibar li a {
+    color: white;
 }
-div#down
-{
-	display: block;
+
+div#up {
+    height: 270px;
+    padding: 10px 10px 0px 10px;
 }
-li#MobileNewspaper
-{
-	color: red;
+
+div#Login {
+    float: left;
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: blue;
+    margin: 5px 10px;
+}
+
+div#banner {
+    float: left;
+    width: 900px;
+    height: 250px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: blue;
+    margin: 5px 10px;
+}
+
+div#down {
+    width: 1280px;
+    height: 800px;
+}
+
+div#down div.downmaindiv {
+    border-style: solid;
+    margin: 20px 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: blue;
+}
+
+li#MobileNewspaper {
+    color: red;
+}
+
+div#footer {
+    width: 1280px;
+    height: 20px;
 }
