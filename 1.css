@@ -71,19 +71,19 @@ div#Login {
     border-width: 5px;
     border-radius: 15px;
     border-color: blue;
-    margin: 5px 10px;
+    margin: 5px;
 }
 
 div#Login ul {
     overflow: hidden;
-    margin: 20px 20px;
+    margin: 5px;
     padding: 0px;
 }
 
 div#banner {
     float: left;
-    width: 920px;
-    height: 180px;
+    width: 960px;
+    height: 155px;
     border-style: solid;
     margin: 5px 10px;
 }
@@ -95,7 +95,7 @@ div#down {
 
 div#down div.downmaindiv {
     border-style: solid;
-    margin: 20px 20px;
+    margin: 5px 5px;
     border-style: solid;
     border-width: 5px;
     border-radius: 15px;
