@@ -38,10 +38,11 @@ div#navibar {
     background-color: blue;
     border-radius: 10px;
 }
-div#navibar ul{
-	overflow: hidden;
-	margin: 0px;
-	padding: 10px;
+
+div#navibar ul {
+    overflow: hidden;
+    margin: 0px;
+    padding: 10px;
 }
 
 li#navi {
@@ -63,8 +64,9 @@ div#up {
 
 div#Login {
     float: left;
-    width: 300px;
-    height: 250px;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
     border-style: solid;
     border-width: 5px;
     border-radius: 15px;
@@ -72,10 +74,16 @@ div#Login {
     margin: 5px 10px;
 }
 
+div#Login ul {
+    overflow: hidden;
+    margin: 20px 20px;
+    padding: 0px;
+}
+
 div#banner {
     float: left;
-    width: 900px;
-    height: 250px;
+    width: 920px;
+    height: 180px;
     border-style: solid;
     margin: 5px 10px;
 }
