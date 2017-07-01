@@ -1,35 +1,111 @@
-#header
-{
-	width: 972px;
-	height: 100px;
-	background-color: #00ff00;
-	margin: 20px;
+a {
+    text-decoration: none;
+    color: black;
 }
-#up
-{
-	display: block;
-	width: 1000px;
-	height: 143px;
-	background-color: aqua;
-	margin: 20px;
+
+a:hover {
+    text-decoration: underline;
 }
-#Login
-{
-	width: 218px;
-	height: 143px;
-	border-style: solid;
-	display: inline-block;
-	background-color: blue;
+
+h2 {
+    margin: 0px;
+    padding: 1px 5px;
+    background-color: blue;
+    color: white;
 }
-#banner
-{
-	height: 136px;
-	width: 750px;
-	border-style: solid;
-	display: inline-block;
-	background-color: blue;
+
+div {
+    /*background-color: #999999;*/
 }
-#down
-{
-	display: block;
+
+div#header {
+    width: 1280px;
+    height: auto;
+    margin: 0px;
+}
+
+a#homepage {
+    display: block;
+    width: 164px;
+    height: 88px;
+    background-repeat: no-repeat;
+    background-image: url(images/logo.gif);
+}
+
+div#navibar {
+    height: auto;
+    padding: 0px 3px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+div#navibar ul {
+    overflow: hidden;
+    margin: 0px;
+    padding: 10px;
+}
+
+li#navi {
+    margin: 0px 20px;
+    float: left;
+    list-style: none;
+    font-size: 150%;
+    font-family: 微软雅黑;
+}
+
+li#navi a {
+    color: white;
+}
+
+div#up {
+    overflow: hidden;
+    padding: 10px 10px 0px 10px;
+}
+
+div#Login {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: blue;
+    margin: 5px;
+}
+
+div#Login ul {
+    overflow: hidden;
+    margin: 5px;
+    padding: 0px;
+}
+
+div#banner {
+    float: left;
+    width: 960px;
+    height: 155px;
+    border-style: solid;
+    margin: 5px 10px;
+}
+
+div#down {
+    width: 1280px;
+    overflow: hidden;
+}
+
+div#down div.downmaindiv {
+    border-style: solid;
+    margin: 5px 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: blue;
+}
+
+li#MobileNewspaper {
+    color: red;
+}
+
+div#footer {
+    width: 1280px;
 }
